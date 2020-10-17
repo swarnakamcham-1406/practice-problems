@@ -21,14 +21,11 @@ do
 
 done
 
- if [ "$heads" -eq 21 ]
+ if [ "$heads" -eq 10 ]
 then
   echo "heads won by $(($heads-$tails)) "
    else
        echo "tails won by $(($tails-$heads))"
 
 fi
-
-echo "final head value is $heads"
-echo "final tail value is $tails"
 
